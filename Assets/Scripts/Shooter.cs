@@ -34,7 +34,7 @@ public class Shooter : MonoBehaviour
 
         foreach(AttackerSpawner spawner in spawners)
         {
-            bool IsCloseEnough = (Mathf.Abs( spawner.transform.position.y - transform.position.y )
+            bool IsCloseEnough = (Mathf.Abs(spawner.transform.position.y - transform.position.y)
                 <= Mathf.Epsilon);
 
             if(IsCloseEnough)
