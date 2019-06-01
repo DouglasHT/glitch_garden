@@ -306,12 +306,12 @@ PrefabInstance:
     - target: {fileID: 5457143917393018097, guid: 0329125cf5156704a9a2e58e24d858fd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.3
+      value: 9.62
       objectReference: {fileID: 0}
     - target: {fileID: 5457143917393018097, guid: 0329125cf5156704a9a2e58e24d858fd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.33
+      value: 1.24
       objectReference: {fileID: 0}
     - target: {fileID: 5457143917393018097, guid: 0329125cf5156704a9a2e58e24d858fd,
         type: 3}
@@ -408,12 +408,12 @@ PrefabInstance:
     - target: {fileID: 7443534035771295157, guid: 82f1164c04864c5479bcf921c1bc70fd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.04
+      value: 9.03
       objectReference: {fileID: 0}
     - target: {fileID: 7443534035771295157, guid: 82f1164c04864c5479bcf921c1bc70fd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 2.99
       objectReference: {fileID: 0}
     - target: {fileID: 7443534035771295157, guid: 82f1164c04864c5479bcf921c1bc70fd,
         type: 3}
@@ -766,11 +766,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 272623959}
     m_Modifications:
-    - target: {fileID: 3038130257897323544, guid: 3e21402788deff9468fca7a461bccf32,
-        type: 3}
-      propertyPath: m_Name
-      value: Trophy
-      objectReference: {fileID: 0}
     - target: {fileID: 3038130257897323546, guid: 3e21402788deff9468fca7a461bccf32,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -809,7 +804,7 @@ PrefabInstance:
     - target: {fileID: 3038130257897323546, guid: 3e21402788deff9468fca7a461bccf32,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3038130257897323546, guid: 3e21402788deff9468fca7a461bccf32,
         type: 3}
@@ -825,6 +820,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3038130257897323544, guid: 3e21402788deff9468fca7a461bccf32,
+        type: 3}
+      propertyPath: m_Name
+      value: Trophy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e21402788deff9468fca7a461bccf32, type: 3}
@@ -1263,11 +1263,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1469278224}
     m_Modifications:
-    - target: {fileID: 1424233612095692152, guid: 54f609c9b4b1c0547b539987ccfd0ee7,
-        type: 3}
-      propertyPath: m_Name
-      value: Level Controller
-      objectReference: {fileID: 0}
     - target: {fileID: 8196090169297488211, guid: 54f609c9b4b1c0547b539987ccfd0ee7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1322,6 +1317,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1424233612095692152, guid: 54f609c9b4b1c0547b539987ccfd0ee7,
+        type: 3}
+      propertyPath: m_Name
+      value: Level Controller
       objectReference: {fileID: 0}
     - target: {fileID: 2081854048426245251, guid: 54f609c9b4b1c0547b539987ccfd0ee7,
         type: 3}
@@ -1470,6 +1470,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Level Lost Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402896843460297227, guid: 8ce465a0c17c64643a6e08fe079296c7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4104134880194094151, guid: 8ce465a0c17c64643a6e08fe079296c7,
         type: 3}
