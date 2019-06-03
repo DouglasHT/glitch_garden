@@ -60,7 +60,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\OptionsController.cs" />
     <Compile Include="Assets\Scripts\Attacker.cs" />
     <Compile Include="Assets\Scripts\AttackerSpawner.cs" />
     <Compile Include="Assets\Scripts\DamageColider.cs" />
@@ -76,6 +75,7 @@
     <Compile Include="Assets\Scripts\LivesDisplay.cs" />
     <Compile Include="Assets\Scripts\Lizard.cs" />
     <Compile Include="Assets\Scripts\MusicPLayer.cs" />
+    <Compile Include="Assets\Scripts\OptionsController.cs" />
     <Compile Include="Assets\Scripts\PlayerPrefsController.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\Shooter.cs" />
