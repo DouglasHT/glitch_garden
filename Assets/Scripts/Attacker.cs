@@ -6,9 +6,9 @@ using UnityEngine;
 public class Attacker : MonoBehaviour
 {
 
-    [Range(0f, 5f)] float currentSpeed = 1f;
+    [Range(0f, 5f)]
+    float currentSpeed = 1f;
     GameObject currentTarget;
-
 
     private void Awake()
     {
@@ -18,14 +18,11 @@ public class Attacker : MonoBehaviour
     private void OnDestroy()
     {
         LevelController levelController = FindObjectOfType<LevelController>();
-
         if(levelController != null)
         {
             levelController.AttackerKilled();
         }
     }
-
-
 
     // Update is called once per frame
     void Update()

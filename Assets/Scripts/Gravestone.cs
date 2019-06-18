@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Gravestone : MonoBehaviour
 {
-
     private void OnTriggerStay2D(Collider2D otherCollider)
     {
         Attacker attacker = otherCollider.GetComponent<Attacker>();
 
         if(attacker)
         {
-            // TODO ADD do some sort of animation
+            // TODO ADD  some sort of animation
         }
     }
+
 
 }

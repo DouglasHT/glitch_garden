@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6646352277402387922}
   - component: {fileID: 6646352277402387923}
   - component: {fileID: 4811031149599430951}
-  - component: {fileID: 1425607823}
+  - component: {fileID: 5734459161328249063}
   m_Layer: 0
   m_Name: Gravestone
   m_TagString: Untagged
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6c4266a08e3ad94caba99396b7cb284, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  starCost: 100
+  starCost: 160
 --- !u!61 &6646352277402387922
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -62,7 +62,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0068075657, y: -0.05024129}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -73,7 +73,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.0408454, y: 0.7884227}
   m_EdgeRadius: 0
 --- !u!95 &6646352277402387923
 Animator:
@@ -106,9 +106,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 071c73909b607f24b9b7746b7d4ddcf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 200
+  health: 500
   deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
---- !u!114 &1425607823
+--- !u!114 &5734459161328249063
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -145,7 +145,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6646352278175365740}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.08, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6646352277402387924}
@@ -176,6 +176,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0

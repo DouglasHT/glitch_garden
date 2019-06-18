@@ -8,11 +8,12 @@ public class Fox : MonoBehaviour
     {
         GameObject otherObject = otherCollider.gameObject;
 
+
         if(otherObject.GetComponent<Gravestone>())
         {
             GetComponent<Animator>().SetTrigger("jumpTrigger");
         }
-                
+
         else if (otherObject.GetComponent<Defender>())
         {
             GetComponent<Attacker>().Attack(otherObject);
